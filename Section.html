@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name-equiv ="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section</title>
+    <style>
+        *{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .General{
+            display:inline-block;
+            flex-wrap: nowrap;
+
+        }
+        .box{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            background: rgb(237, 240, 240);
+            }
+        .box2{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            display: block;            
+            }
+         .box3{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            display: block;            
+            }
+            .box4{
+            position: relative;
+            width: 1000px;
+            height: 600px;
+            display: block;            
+            }
+            .box5{
+            position: relative;
+            width: 1000px;
+            height: 300px;
+            display: block;            
+            }
+    
+            .nav  {
+            margin:0 1em 0 0;
+                        }
+            section{
+              
+                width: 600px;
+                height: 50px;
+                position:absolute;
+                left: 400px;
+                top: 10px;
+                font-size: 17px;
+            }
+            .nav li {
+            float: left;
+            list-style-type: none;
+            margin: 1em 0 0 1em;
+            
+            }
+            .nav li a {
+            text-decoration: none; 
+            color:grey;
+            }
+            h2 {
+            position: absolute;
+            float: left;
+            list-style-type: none;
+            margin: 1em 0 0em 1.5em;
+            color: rgb(17, 19, 107);
+            font-size: 22px;         
+            }
+            .h1 {         
+            font-size: 45px;
+            }                 
+            .c2{
+            position: absolute;
+            top: 100px;
+            left:500px;
+            width: 500px;
+            height: 400px; 
+            }
+            .b3i{
+            position: absolute;
+            top: 100px;
+            left:0  px;
+            width: 500px;
+            height: 400px; 
+            }
+            article{
+            width: 300px;
+            height: 200px; 
+            margin: 2em;
+            position: absolute;
+            top: 80px;
+            text-align: left;
+            color: rgb(17, 19, 107);           
+            }
+            article p {
+                font-size: 17px;
+                color: grey;
+            }
+            .c3{
+        
+            width: 800px;
+            height: 100px;
+            position: absolute;
+            text-align:left;
+            color: rgb(17, 19, 107);   
+            background-color: white;
+            top: 450px;
+            left: 100px;
+            opacity: .7;
+
+              }
+            .nav li a:hover {
+                width:300px;
+                height:100px;
+                border-radius:8px;
+                background-color:blue;
+                padding:9px;
+                font-size: 17px;
+                color: white;                    
+          }
+                 
+          ul, ol, a {
+              list-style: none;
+          }
+          .nav2 li a {
+            text-decoration: none;
+            font-size: 17px;
+             color: grey;
+             padding: 10px 15px;
+            display: block;
+
+          }
+          .nav2 > li {
+              float: left;
+          }
+          form {
+              margin: 0;
+              padding: 0;
+          }
+        .c3 a{
+            text-decoration: none;
+            color: rgb(17, 19, 107); 
+            font-size: 20px;
+        }
+        .boton {
+            border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+            padding: 20+px; /*espacio alrededor texto*/
+            background-color:blue;/*color botón*/
+            color: #ffffff; /*color texto*/
+            text-decoration: none; /*decoración texto*/
+            /*text-transform: uppercase; /*capitalización texto*/
+            /*Font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+            border-radius: 8px; /*bordes redondos*/
+        }
+        .nav3 li a {
+            text-decoration: none;
+            padding: 5px 5px;
+            display: block;
+        }
+       
+        .dos > li{
+            float: left;
+        }
+        .nav3 ul{
+            display: none;
+            position: absolute;
+            min-width: 1000px;
+        }
+        .nav3 li:hover > ul   {
+            display: block
+        }
+        .c4 article{
+            top:10px;
+        }
+        .c4{
+            position: absolute;
+            top: 400px;
+            left: 80px;
+            width: 900px;
+            height: 400px; 
+            display: flex;
+
+         
+            }
+            .acubo{
+            top: 50px;
+            left: 50px; 
+            }
+            .cubo{
+                width: 200px;
+                height: 200px; 
+              
+            }
+            .cubo h3 {
+            color: rgb(17, 19, 107);
+             }
+             .cubo p {
+                color: grey;
+             }
+             .cubo:hover {
+            border: 1px solid rgb(235, 232, 232);
+            box-shadow: 2px 2px 5px #999;
+            }
+            .b3p{
+                position: absolute;
+                top: 0px;
+                left: 510px;
+                width: 400px;
+                height: 400px; 
+            }
+            .b3p h1 {
+            color: rgb(17, 19, 107);
+             }
+             .b3p p {
+                color: grey;
+             }
+           
+             .c5 ul {
+            
+                padding: 0px;
+                margin: 0px;
+             }
+             .c5 li {
+                color: rgb(17, 19, 107);
+             }
+             .cubo2 a {
+                color: grey;
+             }
+             .c5 li ul{
+                display: none;
+             }
+             .c5 li:hover >ul {
+                border: 1px solid rgb(235, 232, 232);
+                box-shadow: 2px 2px 5px #999;
+                display: block;
+
+             }
+             .b4i{
+                position: absolute;
+                
+                left: 500px;
+                width: 400px;
+                height: 400px; 
+            }   
+            .b4p{
+                position: absolute;
+                left: 10px;
+                width: 400px;
+                height: 400px; 
+            }
+            .b4p h1 {
+            color: rgb(17, 19, 107);
+             }
+             .b4p p {
+                color: grey;
+             }
+             .boton2 {
+         
+            padding: 15px; /*espacio alrededor texto*/
+            background-color:rgb(195, 227, 237);/*color botón*/
+            color: rgb(12, 15, 224);
+            text-decoration: none; /*decoración texto*/
+         /*text-transform: uppercase; /*capitalización texto*/
+            /*Font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+            border-radius: 3px; /*bordes redondos*/
+        }
+        .tab1 p{
+
+            color: rgb(24, 89, 217);
+            font-size: 17px;
+        }
+        .tab1{
+         border-spacing:15px;
+         border-collapse: separate;
+        }
+        .tab1 th {
+       
+        border: rgb(205, 211, 211) 1px solid;
+        margin: 15px;
+        padding: 15px;
+}
+        .tab1 button:hover {
+               
+                border-radius:8px;
+                background-color:blue;
+                padding:9px;
+                font-size: 17px;
+                color: white;
+
+             }
+        .b5p1{
+            position: absolute;
+                left: 40px;
+                width: 400px;
+                height: 400px; 
+        }
+        .b5p1 h1 {
+            color: rgb(17, 19, 107);
+             }
+        .b5p1 p {
+            color: grey;
+        }
+               
+        .box5{
+            background-color:rgb(195, 227, 237);
+        }
+        .b5p2{
+            position: absolute;
+            left: 400px;
+            width: 400px;
+            }       
+        .b5p2 ul {
+            margin: 0px;
+            padding: 0px;
+            line-height: 2;
+            min-width: 120px;
+            }       
+        .b5p2c >li {
+         float: left;
+           
+        }
+        .b5p2c {
+         
+            position: absolute;
+                top: 30px;
+                left: 150px;
+                width: 400px;
+                height: 400px;  
+        }
+        .b5p2c ul {
+            color: grey;
+        }
+        .b5p2c > li {
+            color: rgb(17, 19, 107);
+        }
+
+           
+    </style>
+    </head>
+    <body>
+        <div class="General">
+        <div class="box">
+        <div class="parte1">
+        <h2><b>Vaccination </b></h2>
+        <section>
+        <ul class="nav">
+        <li><a href=" ">Database</a></li>
+        <li><a href="">Education</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Regulation</a></li>
+        <li><a href=""> Hoaxt Buster</a></li>    
+        </ul>
+        </section>
+        <article>
+            <h1 class ="h1"> Fight Virus With Vaccines</h1>
+            <p>Let's stop this pandemic by killing the virus with a vaccine, 
+            don't let yourself and your family get infected</p>
+        </article>
+         </div>
+
+        <div class="c2"> 
+        <img src="IMAGEN1.jpg"width="500px" height="500px" margin="50em">
+        </div>
+        <form  action="" class="c3">
+            <ul class="nav3">
+           
+            <li><a href=""><b>Schedule your Vaccination</b></a>
+                       
+                        <ul class="dos">
+                        <li><a href="">Location</a>
+                        <input type="location" id="Location" name="Location">
+                        </li>
+                        
+                        <li><a href="">Date</a>
+                        <input type="Date" id="Date" name="Date">
+                        </li>
+
+                        <li><a href="">Vacine Type</a>
+                        <input type="Text" id="Tex" name="Text">
+                        </li>
+
+                        <li><input class="boton" type="submit"></li>
+                    </ul>
+                </li>
+        </ul>
+    </form>
+         </div>
+        <div class="box2">
+
+            <article class="acubo">
+                <h1 class ="h1"> Why should I vaccine?</h1>
+                <p>In order to avoid any doubts getting the COVID-19 vaccine, identify the following 4 benefirs of CODIV-19 vaccination:</p>
+            </article>
+            <section class="c4">
+                <div class="cubo">
+                    <h3>Minimize the spred of viruses </h3>
+                    <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus.</p>
+                </div>
+                <div class="cubo">
+                    <h3>Forming antibodies</h3>
+                    <p>COVID-19 vaccine proven to help shape antibody response for inmmune system.</p>
+                </div>
+                <div class="cubo">
+                    <h3>Protecting people nearby</h3>
+                    <p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us.</p>
+                </div>
+                <div class="cubo">
+                    <h3>Creating group immunity</h3>
+                    <p>COVID-19 vaccination is also beneficial for creating group immunity or herd immunity.</p>
+                </div>
+            </section>
+</div>
+        <div class ="box3">
+            <div class="b3i"> 
+                <img src="IMAGEN2.jpg"width="500px" height="500px" margin="10em">
+                </div>
+                <div class="b3p"> 
+                    <h1 class ="h1b3"> Preparations Before Vaccine</h1>
+                    <p>The success of vaccnes is strongly influenced by the strength of the body'
+                        immune system. Therefore, thre are several things that cab be tried to make
+                        the COVID.19 vaccine work:</p>
+
+                    <ul class="c5">
+                        <li class="cubo1"><a>Avoid alcoholic beverages </a></li>
+                        <li class="cubo1"> <a>Avoid stress</a>
+                            <ul>
+                            <li class="cubo2"><a>Stress has a profound effect on immune work. Moreover, prolonged stress can increase
+                                cortisol production and oxidative stress in the body.</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="cubo1"><a>Eath healthy food</a> </li>
+                        <li class="cubo1"><a>Get enpugh sleep</a>  </li>
+                        <li class="cubo1"><a>Exercise or physical activity</a></li>
+                    </ul>
+                        </div>
+
+                
+        </div>
+        <div class ="box4">
+            <div class="b4i"> 
+                <img src="IMAGEN3.jpg"width="500px" height="500px" margin="10em">
+                </div>
+                <div class="b4p"> 
+                    <h1 class ="h1b4"> Emergency Contact</h1>
+                    <p>Contact onte of the conctacts below if you or your family feel unwell and have similar symptoms such as 
+                        COVID-19, make sure you also take care of yourself before reporting to us:</p>
+             
+                        <table class="tab1">
+                            <tr>
+                                <th><p>Call<br><br>021.123.145.14<br><br> <button class="boton2" name="Call">Call Now</button></th>
+                                <th><p>Chat<br><br>021.123.145.14<br><br><button class="boton2" name="Chat">Chat Now</button></th>
+                            </tr>       
+                             <tr>
+                                <th><p>Video Call<br><br> 021.123.145.12<br><br><button class="boton2" name="Video">Video Call Now</button></th>
+                                <th><p>Message<br><br> 021.123.145.14<br><br><button class= "boton2" name="Message">Message Now</button></th>
+                            </tr>
+                            </table>
+                            
+                        </div>
+
+                
+        </div>
+        <div class="box5">
+            <div class="b5p1">
+            <h1>Vaccination</h1>
+            <p>Our goal is to help the<br> world free from the<br> ongoing pandemic</p>
+        </div>
+        <div class="b5p2">
+            <ul class="b5p2c">
+                <li><a>About</a>
+                <ul>
+                    <li> <a> About us</a> </li>
+                    <li> <a> Features</a> </li>
+                    <li> <a> News&Blog</a> </li>
+                </ul>
+                 </li>
+                <li><a>Company</a>
+                    <ul>
+                        <li><a>How we work?</a></li>
+                        <li><a>Cappital</a></li>
+                        <li><a>Security</a></li>
+                    </ul></li>
+                    <li><a>Support</a>
+                        <ul>
+                            <li><a>FAQs</a></li>
+                            <li><a>Support Center</a></li>
+                            <li><a>Contact us</a></li>
+                        </ul></li>
+
+            </ul>
+    </div>
+</div>
+</body>
+</html>
